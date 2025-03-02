@@ -38,9 +38,6 @@ document.getElementById('primary-btn').addEventListener('click',
         comment.appendChild(message);
         }
 
-        if(convertedMinus==0){
-            alert('congrates!!! you have completed all the current task')
-        }
            
     }
 )
@@ -80,9 +77,7 @@ document.getElementById('primary-btn1').addEventListener('click',
             comment.appendChild(message);
     
         }
-        if(convertedMinus==0){
-            alert('congrates!!! you have completed all the current task')
-        }
+        
           
     }
 )
@@ -121,9 +116,8 @@ document.getElementById('primary-btn2').addEventListener('click',
     
             comment.appendChild(message);
         }
-        if(convertedMinus==0){
-            alert('congrates!!! you have completed all the current task')
-        }
+      
+       
                 
     }
 )
@@ -164,9 +158,8 @@ document.getElementById('primary-btn3').addEventListener('click',
     
 
         }
-        if(convertedMinus==0){
-            alert('congrates!!! you have completed all the current task')
-        }  
+
+        
                 
     }
 )
@@ -206,9 +199,7 @@ document.getElementById('primary-btn4').addEventListener('click',
         comment.appendChild(message);
 
         }
-        if(convertedMinus==0){
-            alert('congrates!!! you have completed all the current task')
-        }
+       
                 
     }
 )
@@ -247,9 +238,6 @@ document.getElementById('primary-btn5').addEventListener('click',
 
         comment.appendChild(message);
         }
-        if(convertedMinus==0){
-            alert('congrates!!! you have completed all the current task')
-        }
         
                 
     }
@@ -276,4 +264,81 @@ document.getElementById('page1').addEventListener('click',
 )
 
 // final alert
+document.getElementById('primary-btn').addEventListener('click',
+    function(event){
+        event.preventDefault();
+        const totalMinus=document.getElementById('minus').innerText;
+        const convertedMinus=parseInt(totalMinus);
+
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
+        }
+
+    }
+)
+
+document.getElementById('primary-btn1').addEventListener('click',
+    function(event){
+        event.preventDefault();
+        const totalMinus=document.getElementById('minus').innerText;
+        const convertedMinus=parseInt(totalMinus);
+        
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
+        }
+
+    }
+)
+
+document.getElementById('primary-btn2').addEventListener('click',
+    function(event){
+        event.preventDefault();
+        const totalMinus=document.getElementById('minus').innerText;
+        const convertedMinus=parseInt(totalMinus);
+        
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
+        }
+
+    }
+)
+
+document.getElementById('primary-btn3').addEventListener('click',
+    function(event){
+        event.preventDefault();
+        const totalMinus=document.getElementById('minus').innerText;
+        const convertedMinus=parseInt(totalMinus);
+        
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
+        }
+
+    }
+)
+
+document.getElementById('primary-btn4').addEventListener('click',
+    function(event){
+        event.preventDefault();
+        const totalMinus=document.getElementById('minus').innerText;
+        const convertedMinus=parseInt(totalMinus);
+        
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
+        }
+
+    }
+)
+
+document.getElementById('primary-btn5').addEventListener('click',
+    function(event){
+        event.preventDefault();
+        const totalMinus=document.getElementById('minus').innerText;
+        const convertedMinus=parseInt(totalMinus);
+        
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
+        }
+
+    }
+)
 
