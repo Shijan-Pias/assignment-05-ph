@@ -37,6 +37,10 @@ document.getElementById('primary-btn').addEventListener('click',
 
         comment.appendChild(message);
         }
+
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
+        }
            
     }
 )
@@ -76,6 +80,9 @@ document.getElementById('primary-btn1').addEventListener('click',
             comment.appendChild(message);
     
         }
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
+        }
           
     }
 )
@@ -113,6 +120,9 @@ document.getElementById('primary-btn2').addEventListener('click',
             message.classList.add("text-black-300", "px-5", "py-2");
     
             comment.appendChild(message);
+        }
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
         }
                 
     }
@@ -153,6 +163,9 @@ document.getElementById('primary-btn3').addEventListener('click',
             comment.appendChild(message);
     
 
+        }
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
         }  
                 
     }
@@ -193,6 +206,9 @@ document.getElementById('primary-btn4').addEventListener('click',
         comment.appendChild(message);
 
         }
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
+        }
                 
     }
 )
@@ -230,7 +246,11 @@ document.getElementById('primary-btn5').addEventListener('click',
         message.classList.add("text-black-300", "px-5", "py-2");
 
         comment.appendChild(message);
-        }   
+        }
+        if(convertedMinus==0){
+            alert('congrates!!! you have completed all the current task')
+        }
+        
                 
     }
 )
@@ -254,3 +274,6 @@ document.getElementById('page1').addEventListener('click',
 
     }
 )
+
+// final alert
+
